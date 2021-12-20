@@ -9,7 +9,8 @@
   "version": "0.23.0",
   "main": "./dist/pev2.common.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/assets/scss/*"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -18,7 +19,7 @@
     "build-app": "vue-cli-service build --dest dist-app",
     "test:unit": "jest",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect && npm run build"
   },
   "dependencies": {
     "@types/dragscroll": "0.0.0",
