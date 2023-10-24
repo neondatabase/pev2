@@ -60,7 +60,7 @@
     "prettier": "2.0.5",
     "raw-loader": "^4.0.2",
     "sass-loader": "^8.0.0",
-    "snyk": "^1.334.0",
+    "snyk": "^1.1064.0",
     "ts-jest": "^25.2.0",
     "typescript": "^3.6.3",
     "vue-jest": "^3.0.5",
